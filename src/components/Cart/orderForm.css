@@ -1,0 +1,68 @@
+select {
+    appearance: none; /* Prevent default arrow on some browsers */
+  }
+  
+  /* Ensure the dropdown opens downwards */
+  select {
+    -webkit-appearance: menulist;
+    -moz-appearance: menulist;
+    appearance: menulist;
+  }
+  /* orderForm.css */
+
+.form-container {
+  position: relative;
+}
+
+
+.loader-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* ensure it's above the form */
+}
+
+.form-blur {
+  filter: blur(3px); /* adjust the blur intensity as needed */
+  pointer-events: none; /* allows clicks to pass through to the form */
+}
+.success-message-card {
+  display: grid;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+}
+.success-message-card h1 {
+  margin-bottom: 40px;
+}
+
+.success-message-card h2 {
+  margin-bottom: 20px;
+}
+
+.success-message-card button {
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-message-card button:hover {
+  background: darkgreen;
+}

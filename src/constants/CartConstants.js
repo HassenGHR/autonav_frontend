@@ -1,0 +1,11 @@
+export const CART_ADD_ITEM = 'CART_ADD_ITEM'
+export const CART_REMOVE_ITEM = 'CART_REMOVE_ITEM'
+
+export const CART_CLEAR_ITEMS = 'CART_CLEAR_ITEMS'
+
+
+export const COMMUNE_LIST_REQUEST = 'COMMUNE_LIST_REQUEST';
+export const COMMUNE_LIST_SUCCESS = 'COMMUNE_LIST_SUCCESS';
+export const COMMUNE_LIST_FAIL = 'COMMUNE_LIST_FAIL';
+ // New action type
+
